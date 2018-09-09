@@ -42,7 +42,8 @@ public class CheckBalanced {
         if (r == -1) return -1;
 
         if (Math.abs(l-r) > 1) return -1;
-        else return (l > r) ? l + 1 : r + 1;
+
+        return (l > r) ? l + 1 : r + 1;
     }
 
 }

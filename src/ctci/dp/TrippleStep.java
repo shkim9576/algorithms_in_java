@@ -16,8 +16,7 @@ public class TrippleStep {
     }
 
     int countWays(int n) {
-        if (n < 0) return 0;
-        if (n == 0) return 0;
+        if (n <= 0) return 0;
 
         int[] memo = new int[n+1];
         memo[0] = 0;
@@ -31,8 +30,7 @@ public class TrippleStep {
     }
 
     int countWayTopDown(int n, int[] m) {
-        if (n < 0) return 0;
-        if (n == 0) return 0;
+        if (n <= 0) return 0;
         if (n == 1) return 1;
         if (n == 2) return 2;
 
