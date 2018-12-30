@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Queue;
 
 //https://leetcode.com/problems/n-ary-tree-level-order-traversal/
-public class NaryTreeLevelOrderTraversal {
+public class NAryTreeLevelOrderTraversal {
 
     public static void main(String[] args) {
-        NaryTreeLevelOrderTraversal o = new NaryTreeLevelOrderTraversal();
+        NAryTreeLevelOrderTraversal o = new NAryTreeLevelOrderTraversal();
         o.levelOrder(o);
     }
 
-    public void levelOrder(NaryTreeLevelOrderTraversal o) {
+    public void levelOrder(NAryTreeLevelOrderTraversal o) {
         Node n1 = new Node(1, null);
         Node n2 = new Node(2, null);
         Node n3 = new Node(3, null);
@@ -56,15 +56,5 @@ public class NaryTreeLevelOrderTraversal {
             result.add(list);
         }
         return result;
-    }
-
-    class Node {
-        int val;
-        List<Node> children;
-
-        public Node(int v, List<Node> c) {
-            this.val = v;
-            this.children = c;
-        }
     }
 }
