@@ -1,7 +1,5 @@
 package leetcode.one.easy;
 
-import ctci.array.StringCompress;
-
 //https://leetcode.com/problems/string-compression/submissions/
 public class StringCompression {
 
