@@ -1,6 +1,6 @@
-package sandbox;
+package geeksforgeeks.six.linkedlist;
 
-public class sandbox {
+public class DeleteNode {
 
     public static void main(String[] args) {
         /* Start with the empty list */

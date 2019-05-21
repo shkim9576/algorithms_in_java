@@ -31,7 +31,7 @@ public class Graph {
         g.addEdge(4, 3);
 
         g.printGraph(0);
-        System.out.println("BFS:");
+        System.out.println("Traversal:");
         g.bfs(0);
         System.out.println();
         System.out.println("DFS:");

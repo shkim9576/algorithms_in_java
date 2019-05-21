@@ -28,7 +28,7 @@ public class GraphTraversal {
         System.out.println("-- GRAPH --");
         System.out.println(g);
 
-        System.out.println("-- BFS --");
+        System.out.println("-- Traversal --");
         g.bfs(1);
         System.out.println("");
 
